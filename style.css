@@ -2,6 +2,8 @@
   --my-primary-color: #b68c5a;
 }
 body {
+  margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
 }
 
