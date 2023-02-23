@@ -1,7 +1,28 @@
 :root {
   --my-primary-color: #b68c5a;
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
 
 .my-primary-color {
   background-color: var(--my-primary-color);
+}
+.mytext-primary-color {
+  color: var(--my-primary-color);
+}
+
+.section-1 {
+  min-height: 80vh;
+  background-image: url(./images/banner.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+
+.user {
+  width: 5em;
+  border: 0.2em solid white;
+  border-radius: 100%;
 }
